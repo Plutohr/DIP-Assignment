@@ -21,7 +21,7 @@ See [Pix2Pix subfolder](Pix2Pix/).
 
 This repository is my implementation of Assignment 2 of DIP.
 
-<img src="pics/demo.png" alt="demo" width="800">
+<img src="pics/demo.gif" alt="demo" width="800">
 
 ## Requirements
 
@@ -50,7 +50,7 @@ python train.py
 ## Results
 
 ### Poisson Image Editing
-<img src="pics/demo.png" alt="poisson demo" width="800">
+<img src="pics/demo.gif" alt="poisson demo" width="800">
 
 ### Pix2Pix Training Result
 <img src="Pix2Pix/train_results/epoch_295/result_1.png" alt="train result" width="800">
