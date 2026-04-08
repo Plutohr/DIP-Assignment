@@ -62,7 +62,8 @@
   python run_blending_gradio.py
 
   ### 2.4 Experiment Results
-
+  为了更直观地展示交互式 Poisson Image Editing 的使用流程与融合效果，这里给出一个 demo 示例。该示例展示了从前景区域选
+  择、位置调整到最终融合结果的完整过程。
   poisson demo(pics/demo.gif)
 
   ———
