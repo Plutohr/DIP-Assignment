@@ -40,7 +40,9 @@ For the final dense result, I fixed the COLMAP camera intrinsics to the focal le
 
 This repository is my implementation of Assignment 3 of DIP.
 
-<img src="pics/demo.gif" alt="bundle adjustment demo" width="360">
+<img src="pics/demo_1.gif" alt="PyTorch bundle adjustment demo" width="360">
+
+<img src="pics/demo_2.gif" alt="COLMAP dense reconstruction demo" width="360">
 
 ## Requirements
 
@@ -112,7 +114,7 @@ Loss curve:
 
 Reconstructed point cloud visualization:
 
-<img src="pics/demo.gif" alt="task 1 reconstructed point cloud" width="360">
+<img src="pics/demo_1.gif" alt="task 1 reconstructed point cloud" width="360">
 
 The optimized colored point cloud is saved as:
 
@@ -136,6 +138,10 @@ The COLMAP sparse reconstruction registered all 50 images. With the fixed focal 
 Dense reconstruction preview:
 
 <img src="pics/dense_preview.png" alt="COLMAP dense reconstruction preview" width="900">
+
+Dense reconstruction turntable demo:
+
+<img src="pics/demo_2.gif" alt="task 2 COLMAP dense reconstruction demo" width="360">
 
 The submitted COLMAP point cloud files are:
 
