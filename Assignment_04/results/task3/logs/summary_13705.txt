@@ -1,0 +1,14 @@
+Task 3 Official 3DGS Summary
+job_id=13705
+partition=GPU_H800_8
+host=gnode1
+data_dir=/public/home/ba25001026/3DGS/data/chair
+output_dir=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008
+train_seconds=346
+peak_memory_mb=2773
+memory_log=/public/home/ba25001026/3DGS/task3_official/logs/nvidia_smi_13705.csv
+render_dir=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008/train/ours_30000/renders
+video_path=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008/official_train_renders.mp4
+final_point_cloud=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008/point_cloud/iteration_30000/point_cloud.ply
+repo_commit=54c035f
+task3_end=2026-05-29 18:58:12

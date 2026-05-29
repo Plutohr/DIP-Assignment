@@ -1,0 +1,16 @@
+preflight_torch 2.4.1+cu121
+preflight_cv2 4.13.0
+preflight_numpy 2.2.6
+preflight_cuda_available True
+preflight_cuda_count 1
+preflight_device0 NVIDIA H800 PCIe
+Using device: cuda (NVIDIA H800 PCIe)
+Sampled 3000 / 13659 COLMAP points for 3DGS initialization
+init_scales tensor(0.0933) tensor(0.6393)
+Starting training...
+Training on 100 images for 200 epochs
+Debug images will be saved every 1 epochs
+Using 4 debug samples
+Training completed!
+Generating rendering visualization...
+Video saved to: data/chair/checkpoints_h8008/debug_rendering.mp4

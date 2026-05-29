@@ -1,0 +1,73 @@
+task3_start=2026-05-29 18:51:59
+host=gnode1
+job_id=13705
+repo_dir=/public/home/ba25001026/3DGS/task3_official/gaussian-splatting
+data_dir=/public/home/ba25001026/3DGS/data/chair
+output_dir=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008
+python=/public/home/ba25001026/.conda/envs/gauss-sd/bin/python
+Build cuda_12.4.r12.4/compiler.34097967_0
+Fri May 29 18:51:59 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H800 PCIe               On  |   00000000:31:00.0 Off |                    0 |
+| N/A   27C    P0             49W /  350W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+python 3.10.20
+torch 2.4.1+cu121
+torch_cuda 12.1
+cuda_available True
+cuda_count 1
+cuda_device0 NVIDIA H800 PCIe
+official_deps_ok
+Optimizing /public/home/ba25001026/3DGS/task3_official/output/chair_h8008
+Output folder: /public/home/ba25001026/3DGS/task3_official/output/chair_h8008 [29/05 18:52:05]
+Tensorboard not available: not logging progress [29/05 18:52:05]
+Reading camera 1/100Reading camera 2/100Reading camera 3/100Reading camera 4/100Reading camera 5/100Reading camera 6/100Reading camera 7/100Reading camera 8/100Reading camera 9/100Reading camera 10/100Reading camera 11/100Reading camera 12/100Reading camera 13/100Reading camera 14/100Reading camera 15/100Reading camera 16/100Reading camera 17/100Reading camera 18/100Reading camera 19/100Reading camera 20/100Reading camera 21/100Reading camera 22/100Reading camera 23/100Reading camera 24/100Reading camera 25/100Reading camera 26/100Reading camera 27/100Reading camera 28/100Reading camera 29/100Reading camera 30/100Reading camera 31/100Reading camera 32/100Reading camera 33/100Reading camera 34/100Reading camera 35/100Reading camera 36/100Reading camera 37/100Reading camera 38/100Reading camera 39/100Reading camera 40/100Reading camera 41/100Reading camera 42/100Reading camera 43/100Reading camera 44/100Reading camera 45/100Reading camera 46/100Reading camera 47/100Reading camera 48/100Reading camera 49/100Reading camera 50/100Reading camera 51/100Reading camera 52/100Reading camera 53/100Reading camera 54/100Reading camera 55/100Reading camera 56/100Reading camera 57/100Reading camera 58/100Reading camera 59/100Reading camera 60/100Reading camera 61/100Reading camera 62/100Reading camera 63/100Reading camera 64/100Reading camera 65/100Reading camera 66/100Reading camera 67/100Reading camera 68/100Reading camera 69/100Reading camera 70/100Reading camera 71/100Reading camera 72/100Reading camera 73/100Reading camera 74/100Reading camera 75/100Reading camera 76/100Reading camera 77/100Reading camera 78/100Reading camera 79/100Reading camera 80/100Reading camera 81/100Reading camera 82/100Reading camera 83/100Reading camera 84/100Reading camera 85/100Reading camera 86/100Reading camera 87/100Reading camera 88/100Reading camera 89/100Reading camera 90/100Reading camera 91/100Reading camera 92/100Reading camera 93/100Reading camera 94/100Reading camera 95/100Reading camera 96/100Reading camera 97/100Reading camera 98/100Reading camera 99/100Reading camera 100/100 [29/05 18:52:05]
+Converting point3d.bin to .ply, will happen only the first time you open the scene. [29/05 18:52:05]
+Loading Training Cameras [29/05 18:52:05]
+Loading Test Cameras [29/05 18:52:09]
+Number of points at initialisation :  13659 [29/05 18:52:09]
+
+[ITER 7000] Saving Gaussians [29/05 18:53:23]
+
+[ITER 30000] Saving Gaussians [29/05 18:57:46]
+
+Training complete. [29/05 18:57:48]
+Looking for config file in /public/home/ba25001026/3DGS/task3_official/output/chair_h8008/cfg_args
+Config file found: /public/home/ba25001026/3DGS/task3_official/output/chair_h8008/cfg_args
+Rendering /public/home/ba25001026/3DGS/task3_official/output/chair_h8008
+Loading trained model at iteration 30000 [29/05 18:57:50]
+Reading camera 1/100Reading camera 2/100Reading camera 3/100Reading camera 4/100Reading camera 5/100Reading camera 6/100Reading camera 7/100Reading camera 8/100Reading camera 9/100Reading camera 10/100Reading camera 11/100Reading camera 12/100Reading camera 13/100Reading camera 14/100Reading camera 15/100Reading camera 16/100Reading camera 17/100Reading camera 18/100Reading camera 19/100Reading camera 20/100Reading camera 21/100Reading camera 22/100Reading camera 23/100Reading camera 24/100Reading camera 25/100Reading camera 26/100Reading camera 27/100Reading camera 28/100Reading camera 29/100Reading camera 30/100Reading camera 31/100Reading camera 32/100Reading camera 33/100Reading camera 34/100Reading camera 35/100Reading camera 36/100Reading camera 37/100Reading camera 38/100Reading camera 39/100Reading camera 40/100Reading camera 41/100Reading camera 42/100Reading camera 43/100Reading camera 44/100Reading camera 45/100Reading camera 46/100Reading camera 47/100Reading camera 48/100Reading camera 49/100Reading camera 50/100Reading camera 51/100Reading camera 52/100Reading camera 53/100Reading camera 54/100Reading camera 55/100Reading camera 56/100Reading camera 57/100Reading camera 58/100Reading camera 59/100Reading camera 60/100Reading camera 61/100Reading camera 62/100Reading camera 63/100Reading camera 64/100Reading camera 65/100Reading camera 66/100Reading camera 67/100Reading camera 68/100Reading camera 69/100Reading camera 70/100Reading camera 71/100Reading camera 72/100Reading camera 73/100Reading camera 74/100Reading camera 75/100Reading camera 76/100Reading camera 77/100Reading camera 78/100Reading camera 79/100Reading camera 80/100Reading camera 81/100Reading camera 82/100Reading camera 83/100Reading camera 84/100Reading camera 85/100Reading camera 86/100Reading camera 87/100Reading camera 88/100Reading camera 89/100Reading camera 90/100Reading camera 91/100Reading camera 92/100Reading camera 93/100Reading camera 94/100Reading camera 95/100Reading camera 96/100Reading camera 97/100Reading camera 98/100Reading camera 99/100Reading camera 100/100 [29/05 18:57:50]
+Loading Training Cameras [29/05 18:57:50]
+Loading Test Cameras [29/05 18:57:52]
+video_saved=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008/official_train_renders.mp4
+video_frames=100
+Task 3 Official 3DGS Summary
+job_id=13705
+partition=GPU_H800_8
+host=gnode1
+data_dir=/public/home/ba25001026/3DGS/data/chair
+output_dir=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008
+train_seconds=346
+peak_memory_mb=2773
+memory_log=/public/home/ba25001026/3DGS/task3_official/logs/nvidia_smi_13705.csv
+render_dir=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008/train/ours_30000/renders
+video_path=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008/official_train_renders.mp4
+final_point_cloud=/public/home/ba25001026/3DGS/task3_official/output/chair_h8008/point_cloud/iteration_30000/point_cloud.ply
+repo_commit=54c035f
+task3_end=2026-05-29 18:58:12
+task3_done=2026-05-29 18:58:12

@@ -1,0 +1,19 @@
+Using device: cuda (NVIDIA H800 PCIe)
+Sampled 3000 / 13659 COLMAP points for 3DGS initialization
+init_scales tensor(0.0933) tensor(0.6393)
+Starting training...
+Training on 100 images for 1 epochs
+Debug images will be saved every 1 epochs
+Using 4 debug samples
+Training completed!
+Generating rendering visualization...
+Video saved to: data/chair/checkpoints_task2_mem_probe/debug_rendering.mp4
+Task 2 Simplified 3DGS Memory Probe
+job_id=13715
+partition=GPU_H800_8
+host=gnode1
+num_epochs=1
+maximum_points=3000
+downsample_factor=8
+peak_memory_mb=3237
+memory_log=/public/home/ba25001026/3DGS/task3_official/logs/task2_mem_probe_13715.csv
